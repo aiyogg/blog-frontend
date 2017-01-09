@@ -2,7 +2,7 @@
   "name": "vueblog",
   "version": "2.0.0",
   "description": "blog backup",
-  "author": "Chuck <280304286@163.com>",
+  "author": "Chuck <dota2mm@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
