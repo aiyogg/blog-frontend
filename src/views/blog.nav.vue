@@ -131,7 +131,7 @@
         width: 45px;
         line-height: 45px;
         font-size: 30px;
-        background: rgba(0, 0, 0, 0.9) url(../assets/pleasehole-img.png) no-repeat center center/28px auto;
+        background: url(../assets/pleasehole-img.png) no-repeat center center/28px auto;
       }
 
       & > i {

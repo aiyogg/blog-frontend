@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'production') {
   CONFIG = {
     url: "http://blog.fedt.xin",
     MY_INFO_ID: '586f3d705081215c18a15336',
-    MY: '我',
+    MY: '博主',
     EMAIL: 'DOTA2mm@163.com'
   };
 } else {
@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'production') {
     //我的信息_id
     MY_INFO_ID: '586f3d705081215c18a15336',
     //我对对评论进行回复的信息
-    MY: '我',
+    MY: '博主',
     EMAIL: 'DOTA2mm@163.com'
   };
 }
