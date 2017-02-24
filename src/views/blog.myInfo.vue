@@ -12,13 +12,13 @@
           </div>
         </section>
         <section class="detail__info">
-          <p class="name text-shadow"> {{myinfo.full_name || 'X-SONGTAO'}}</p>
-          <p class="job text-shadow"> {{myinfo.position || '前端工程师&&Nodejs工程师'}}</p>
+          <p class="name text-shadow"> {{myinfo.full_name || 'FEDT-T'}}</p>
+          <p class="job text-shadow"> {{myinfo.position || 'WEB前端工程师'}}</p>
           <p class="address text-shadow hidden-xs">
-            <span class="fa fa-map-marker"></span> <span>{{myinfo.address || '火星'}}</span>
+            <span class="fa fa-map-marker"></span> <span>{{myinfo.address || '秋名山'}}</span>
           </p>
           <p class="motto text-shadow hidden-xs">
-            <i class="fa fa-coffee"></i> <span>{{myinfo.motto || '今天想写点什么?'}}</span>
+            <i class="fa fa-coffee"></i> <span>{{myinfo.motto || '一口一口吃掉忧愁'}}</span>
           </p>
         </section>
       </section>
@@ -54,7 +54,7 @@
     </section>
     <!--我的称述-->
     <section class="mywords visuallyhidden">
-      <article v-html="myinfo.personal_state || '这里主要记录我的感想感言。'"></article>
+      <article v-html="myinfo.personal_state || '最美的不是下雨天，是曾与你躲过雨的屋檐。'"></article>
     </section>
   </div>
 </template>
