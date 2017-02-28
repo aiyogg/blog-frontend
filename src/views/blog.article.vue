@@ -1,5 +1,6 @@
 <template>
   <div class="article animated fadeIn container">
+    <progress-bar></progress-bar>    
     <div class="row">
       <div id="article" class="col-lg-8">
         <div class="article-detail">
@@ -743,6 +744,14 @@
 
 
 </style>
+<style>
+  .blogNav {
+    top: 3px !important;
+  }
+  .blogNav:hover .total {
+    background-color: rgba(0, 0, 0, .8) !important;
+  }
+</style>
 <script type="text/javascript">
   import API from "../config.js"
   import {GetArticleById, GetArticleTop} from "../api/api_article"
@@ -754,6 +763,7 @@
   import "bootstrap/scss/bootstrap/_breadcrumbs.scss";
   import copyright from '../components/copyright.vue';
   import Toast from 'Toast';
+  import progressBar from '../components/progressBar.vue'
   module.exports = {
     replace: true,
     data: function () {
@@ -866,7 +876,7 @@
       backToTopHandler: function () {
         let _width = $(document).width()
         if (_width >= 1200) {
-          if ($(this).scrollTop() > 0) {
+          if ($(document).scrollTop() > 0) {
             $('#toTop').css({
               "opacity": 1,
               'left': $('#article').offset().left + $('#article').width(),
@@ -877,7 +887,7 @@
             });
           }
         } else if (_width < 1200) {
-          if ($(this).scrollTop() > 0) {
+          if ($(document).scrollTop() > 0) {
             $('#toTop').css({
               "opacity": 1,
               'left': $('#article').offset().left + $('#article').width() - $('#toTop').width(),
@@ -916,6 +926,7 @@
     },
     components: {
       'comment-box': commentReplyBox,
+      progressBar,
       copyright,
       loading
     },
