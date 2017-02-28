@@ -130,42 +130,56 @@ module.exports = {
   musicList: [
     {
       coverUrl: 'http://p4.music.126.net/cUTk0ewrQtYGP2YpPZoUng==/3265549553028224.jpg?param=260y260',
-      musicUrl: 'http://vue-blog.oss-cn-shanghai.aliyuncs.com/music/%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83%20-%20%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3',
+      musicUrl: 'http://olxg48efw.bkt.clouddn.com/music/%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83%20-%20%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3',
       name: '告白气球',
       player: '周杰伦',
       album: '周杰伦的床边故事'
     },
     {
       coverUrl: 'http://p3.music.126.net/J8AsjYfu2Ugr7Q4ub0Yv0Q==/43980465123047.jpg?param=260y260',
-      musicUrl: 'http://vue-blog.oss-cn-shanghai.aliyuncs.com/music/%E9%80%86%E9%B3%9E%20-%20%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3',
+      musicUrl: 'http://olxg48efw.bkt.clouddn.com/music/%E9%80%86%E9%B3%9E%20-%20%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3',
       name: '逆鳞',
       player: '周杰伦',
       album: '十一月的萧邦'
     },
     {
       coverUrl: 'http://p3.music.126.net/uKR6EQ1dLq4i1UBhXmvXtQ==/721279627833133.jpg?param=260y260',
-      musicUrl: 'http://vue-blog.oss-cn-shanghai.aliyuncs.com/music/%E4%B9%94%E5%85%8B%E5%8F%94%E5%8F%94%20-%20%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3',
+      musicUrl: 'http://olxg48efw.bkt.clouddn.com/music/%E4%B9%94%E5%85%8B%E5%8F%94%E5%8F%94%20-%20%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3',
       name: '乔克叔叔',
       player: '周杰伦',
       album: '魔杰座'
+    },
+    {
+      coverUrl: 'http://p3.music.126.net/HQxTggMCB7AHUXN-ZFEtmA==/1371091013186741.jpg?param=260y260',
+      musicUrl: 'http://olxg48efw.bkt.clouddn.com/music/%E5%B0%8F%E5%8D%8A%20-%20%E9%99%88%E7%B2%92.mp3',
+      name: '小半',
+      player: '陈粒',
+      album: '小梦大半'
+    },
+    {
+      coverUrl: 'http://p4.music.126.net/xmYUW7yYS02Tc0McsGdKWA==/18345351510075909.jpg?param=260y260',
+      musicUrl: 'http://olxg48efw.bkt.clouddn.com/music/%E7%AB%A5%E8%AF%9D%E9%95%87%20-%20%E6%9A%97%E6%9D%A0.mp3',
+      name: '童话镇',
+      player: '暗杠',
+      album: '童话镇'
     }
   ],
   /**
    * 切换的背景列表
    * */
   imageList: [
-    'http://blog.fedt.xin/bg_resource/1.jpg',
-    'http://blog.fedt.xin/bg_resource/2.jpg',
-    'http://blog.fedt.xin/bg_resource/3.jpg',
-    'http://blog.fedt.xin/bg_resource/4.jpg',
-    'http://blog.fedt.xin/bg_resource/5.jpg',
-    'http://blog.fedt.xin/bg_resource/6.jpg',
-    'http://blog.fedt.xin/bg_resource/7.jpg',
-    'http://blog.fedt.xin/bg_resource/8.jpg',
-    'http://blog.fedt.xin/bg_resource/9.jpg',
-    'http://blog.fedt.xin/bg_resource/10.jpg',
-    'http://blog.fedt.xin/bg_resource/11.jpg',
-    'http://blog.fedt.xin/bg_resource/12.jpg'
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/1.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/2.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/3.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/4.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/5.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/6.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/7.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/8.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/9.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/10.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/11.jpg',
+    'http://olxg48efw.bkt.clouddn.com/bg_resource/12.jpg'
   ]
 
 }
