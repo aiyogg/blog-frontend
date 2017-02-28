@@ -631,6 +631,9 @@
     .backToTop {
       margin-left: 0;
     }
+    .total {
+      top: 45px !important;
+    }
   }
 
   @include media("<=desktop_small") {
@@ -739,18 +742,12 @@
         }
       }
     }
-
+    .backToTop {
+      display: none;
+    }
   }
 
 
-</style>
-<style>
-  .blogNav {
-    top: 3px !important;
-  }
-  .blogNav:hover .total {
-    background-color: rgba(0, 0, 0, .8) !important;
-  }
 </style>
 <script type="text/javascript">
   import API from "../config.js"

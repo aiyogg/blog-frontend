@@ -19,7 +19,7 @@
   
   .total .progress {
     display: block;
-    width: 90%;
+    width: 0;
     height: 100%;
     background-color: #42b983;
     -webkit-transition: width .3s ease;
