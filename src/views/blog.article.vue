@@ -630,15 +630,15 @@
   @include media("<=desktop") {
     .backToTop {
       margin-left: 0;
-    }
-    .total {
-      top: 45px !important;
-    }
+    }   
   }
 
   @include media("<=desktop_small") {
     .article {
       padding-top: 60px;
+    }
+    .total {
+      top: 45px !important;
     }
   }
 
