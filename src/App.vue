@@ -56,13 +56,16 @@
   Vue.http.headers.common['Content-Type'] = 'application/json; charset=utf-8';
 
   export default {
-    store,
+    store, // 在根节点注入 store
     data: function () {
       return {}
     },
     methods: {
-      //vuex
+      //  mapActions 辅助函数将组件的 methods 映射为 store.dispatch 调用
+      // 组件中使用 this.$store.dispatch('xxx') 分发 action
       ...mapActions({
+        // 映射 this.setLoginState 为 this.$store.dispatch('setLoginState')
+        // 此处可以简写为 'setLoginState'
         setLoginState: 'setLoginState',
       }),
     },
