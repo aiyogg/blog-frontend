@@ -52,6 +52,7 @@
    * vue-resource 配置
    * */
   Vue.use(VueResource);
+  // 设置请求头
   Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
   Vue.http.headers.common['Content-Type'] = 'application/json; charset=utf-8';
 
@@ -69,14 +70,15 @@
         setLoginState: 'setLoginState',
       }),
     },
-    created: function () {
+    // Instance lifecycle hook 生命周期钩子函数
+    created: function () { // 开始编译之前调用
       const _this = this;
       /**
        * 签到
        * sign 是一个13位时间戳，填写当前签到的时间
        * */
       let sign = parseInt(Vue.$localStorage['sign']);
-      let dayStart = parseInt(moment().startOf('day').format('x'));
+      let dayStart = parseInt(moment().startOf('day').format('x')); // 当天00:00的毫秒数
       if (!sign || sign < dayStart) {
         Sign().then(function () {
           Vue.$localStorage.$set('sign', (new Date().getTime()));
@@ -94,14 +96,14 @@
         let time = parseInt(authorization.time);
         if ((new Date().getTime() - time) < 1000 * 60 * 60 * 2) {
           //token有效,能进入
-          _this.setLoginState(true);
+          _this.setLoginState(true); // 修改 store 中的 isLogin
           // 设置请求的token
           Vue.http.headers.common['authorization'] = "token " + authorization.token;
         }
       }
 
     },
-    mounted: function () {
+    mounted: function () { // 渲染完毕调用
       //更改loading状态,，隐藏index中的loading画面
       window.hideLoadingPage();
     },
