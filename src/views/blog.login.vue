@@ -21,7 +21,7 @@
           </div>
           <div class="btnGroup">
             <span class="errText">{{errText}}</span>
-            <button @click="loginBtn()" class="btn btn-x-songtao">登陆</button>
+            <button @click="loginBtn()" class="btn btn-x-songtao">登录</button>
           </div>
         </div>
       </div>

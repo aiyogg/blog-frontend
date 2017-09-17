@@ -66,9 +66,9 @@
     },
     mounted: function () {
       var self = this
-      document.addEventListener('scroll', this.throttle(function () {
+      document.addEventListener('scroll',function () {
         self.calcPercent()
-      }, 20))
+      })
     }
   }
 </script>

@@ -8,11 +8,11 @@ gulp.task('manifest', function () {
     .pipe($.manifest({
       hash: true,
       preferOnline: true,
-      prefix: 'http://xiangsongtao.com/',
+      prefix: 'https://blog.fedt.xin/',
       network: ['*'],
       cache: [
-        'http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css',
-        'http://cdn.bootcss.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3',
+        'https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css',
+        'https://cdn.bootcss.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3',
       ],
       filename: 'app.manifest',
       exclude: ['app.manifest'],
