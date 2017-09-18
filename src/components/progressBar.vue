@@ -1,6 +1,6 @@
 <template>
   <div class="total" @click="clickPos">
-    <span :style="progress" class="progress"></span>    
+    <span :style="progress" class="progress"></span>
   </div>
 </template>
 <style scoped lang="scss">
@@ -16,7 +16,7 @@
     left: 0;
     z-index: 9999;
   }
-  
+
   .total .progress {
     display: block;
     width: 0;
@@ -51,13 +51,13 @@
       calcPercent () {
         var docHeight = document.documentElement.scrollHeight // 页面总高度
         var clintHeight = document.documentElement.clientHeight // 视窗高度
-        var scrollHeight = document.body.scrollTop // 页面已滚动的高度
+        var scrollHeight = document.documentElement.scrollTop // 页面已滚动的高度
         var percent = (scrollHeight / (docHeight - clintHeight) * 100).toFixed(2) + '%'
         this.progress = {width: percent}
       },
       clickPos (ev) {
         var docHeight = document.documentElement.scrollHeight // 页面总高度
-        var clintWidth = document.body.clientWidth // 视窗宽度
+        var clintWidth = document.documentElement.clientWidth // 视窗宽度
         var clintHeight = document.documentElement.clientHeight // 视窗高度
         var targetPercent = ev.x / clintWidth
         console.log(docHeight, targetPercent, clintHeight)
@@ -66,9 +66,9 @@
     },
     mounted: function () {
       var self = this
-      document.addEventListener('scroll',function () {
+      document.addEventListener('scroll', this.throttle(function () {
         self.calcPercent()
-      })
+      }, 10))
     }
   }
 </script>
