@@ -12,13 +12,13 @@
           </div>
         </section>
         <section class="detail__info">
-          <p class="name text-shadow"> {{myinfo.full_name || 'FEDT-T'}}</p>
-          <p class="job text-shadow"> {{myinfo.position || 'WEB前端工程师'}}</p>
+          <p class="name text-shadow"> {{myinfo.full_name || 'Chuck'}}</p>
+          <p class="job text-shadow"> {{myinfo.position || '前端开发工程师'}}</p>
           <p class="address text-shadow hidden-xs">
-            <span class="fa fa-map-marker"></span> <span>{{myinfo.address || '秋名山'}}</span>
+            <span class="fa fa-map-marker"></span> <span>{{myinfo.address || '湖北武汉'}}</span>
           </p>
           <p class="motto text-shadow hidden-xs">
-            <i class="fa fa-coffee"></i> <span>{{myinfo.motto || '一口一口吃掉忧愁'}}</span>
+            <i class="fa fa-coffee"></i> <span>{{myinfo.motto || 'undefined'}}</span>
           </p>
         </section>
       </section>
