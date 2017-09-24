@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
   };
 } else {
   CONFIG = {
-    url: "https://blog.fedt.xin",
+    url: "http://localhost:8080",
     //我的信息_id
     MY_INFO_ID: '586f3d705081215c18a15336',
     //我对对评论进行回复的信息
