@@ -61,7 +61,7 @@
         var clintHeight = document.documentElement.clientHeight // 视窗高度
         var targetPercent = ev.x / clintWidth
         console.log(docHeight, targetPercent, clintHeight)
-        document.body.scrollTop = (docHeight - clintHeight) * targetPercent
+        document.documentElement.scrollTop = (docHeight - clintHeight) * targetPercent
       }
     },
     mounted: function () {
