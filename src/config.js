@@ -7,7 +7,7 @@ let CONFIG;
 // if (process.env.NODE_ENV === 'development') {
 if (process.env.NODE_ENV === 'production') {
   CONFIG = {
-    url: "https://blog.fedt.xin",
+    url: "https://blog.chenteng.me",
     MY_INFO_ID: '586f3d705081215c18a15336',
     MY: '博主',
     EMAIL: 'DOTA2mm@163.com'

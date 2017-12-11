@@ -32,7 +32,7 @@
    * 设置本地存储
    * */
   Vue.use(vStorage, {
-    storageKeyPrefix: 'xst-'
+    storageKeyPrefix: 'fedt-'
   });
 
   /**
