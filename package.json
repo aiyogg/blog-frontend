@@ -24,7 +24,7 @@
     "lodash": "^4.16.6",
     "marked": "^0.3.6",
     "mint-ui": "^2.0.4",
-    "moment": "^2.14.1",
+    "moment": "^2.19.4",
     "node-sass": "^3.8.0",
     "sass-loader": "^4.0.0",
     "scss-loader": "^0.0.1",
