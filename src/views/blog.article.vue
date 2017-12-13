@@ -37,6 +37,10 @@
               <div class="paper__info--span hidden-xs" v-for="tag of article.tags">
                 <i class="fa fa-tag"></i> <span>{{tag.name}}</span>
               </div>
+              <a href="javascript:void(0)" @click="shareToWB" id="share_wb" class="paper__info--span">
+                <i class="fa fa-weibo"></i>
+                <span>微博分享</span>
+              </a>
             </section>
             <section class="paper__content">
               <div class="paper__content--inner markdown-body hljs" v-html="article.html">
@@ -384,6 +388,16 @@
         }
         a:hover {
           color: $base-theme-color;
+        }
+        #share_wb {
+          &:hover {
+            i {
+              color: rgb(230, 22, 45);
+            }
+            span {
+              color: rgb(255, 153, 51);
+            }
+          }
         }
       }
       .paper__content {
@@ -895,6 +909,17 @@
             });
           }
         }
+      },
+      /**
+       * 分享到微博
+       */
+      shareToWB: function () {
+        let articleTitle = `@呆萌阿腾 的这篇博客文章《${$('h1').text()}》写得很不错，分享给大家。`;
+        let articleUrl = location.href;
+        let pictureUrl = $('#article img')[0] ? $('#article img:eq(0)').attr('src') : 'https://fedt-blog.b0.upaiyun.com/uploads/logo.jpg';
+        let appId = '1348740919';
+        let shareUrl = `http://service.weibo.com/share/share.php?title=${encodeURI(articleTitle)}&url=${encodeURI(articleUrl)}&pic=${encodeURI(pictureUrl)}&appkey=${appId}`;
+        window.open(shareUrl, '_blank');
       }
     },
     created: function () {
