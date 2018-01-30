@@ -44,7 +44,7 @@
           <ul class="SNS">
             <li class="hidden-lg"><a title="GitHub" target="_blank" href="https://github.com/dota2mm"><i
               class="fa fa-github"></i></a></li>
-            <li @click="showSocialImg('https://blog.fedt.xin/uploads/weixin-addme.jpg')" data-toggle="modal"
+            <li @click="showSocialImg('https://blog.chenteng.me/uploads/weixin-addme.jpg')" data-toggle="modal"
                 data-target="#socialContact"><i class="fa fa-weixin"></i></li>
             <li><a title="新浪微博" target="_blank" href="https://weibo.com/ForKhazModan"><i class="fa fa-weibo"></i></a></li>
             </li>

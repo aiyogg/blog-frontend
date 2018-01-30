@@ -67,8 +67,8 @@
       ...mapActions({
         // 映射 this.setLoginState 为 this.$store.dispatch('setLoginState')
         // 此处可以简写为 'setLoginState'
-        setLoginState: 'setLoginState',
-      }),
+        setLoginState: 'setLoginState'
+      })
     },
     // Instance lifecycle hook 生命周期钩子函数
     created: function () { // 开始编译之前调用
@@ -87,7 +87,6 @@
         console.log('you have already sign!');
       }
 
-
       /**
        * 进入检查是否有token,是否能直接登录
        * */
@@ -95,26 +94,24 @@
         let authorization = _this.$localStorage.authorization;
         let time = parseInt(authorization.time);
         if ((new Date().getTime() - time) < 1000 * 60 * 60 * 2) {
-          //token有效,能进入
+          // token有效,能进入
           _this.setLoginState(true); // 修改 store 中的 isLogin
           // 设置请求的token
           Vue.http.headers.common['authorization'] = "token " + authorization.token;
         }
       }
-
     },
     mounted: function () { // 渲染完毕调用
-      //更改loading状态,，隐藏index中的loading画面
+      // 更改loading状态,，隐藏index中的loading画面
       window.hideLoadingPage();
     },
     components: {
-      //小组件挂载集中挂载
+      // 小组件挂载集中挂载
       blogNav,
       socialInfo,
-      doLogout,
-    },
+      doLogout
+    }
   }
-
 
 </script>
 

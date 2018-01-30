@@ -4,7 +4,7 @@
 > 本项目是基于[X-SONGTAO](https://github.com/xiangsongtao/X-SONGTAO-VUE)项目的二次开发，感谢[Hsiang](https://github.com/xiangsongtao)优秀的源码
 
 ### 项目介绍
-本仓库是[个人博客](http:blog.fedt.xin)前端源码的备份,用于构建博客的前端代码   
+本仓库是[个人博客](https:blog.chenteng.me)前端源码的备份,用于构建博客的前端代码   
 整个项目脚手架由Vue官方的 [`vue-cli`](https://github.com/vuejs/vue-cli) 工具生成(webpack版)，极大简化了项目搭建过程  
 提供一般博客系统常见的功能，包括主页、我的博客（个人简介、文章列表、标签、归档、文章详细、文章评论）、音乐播放器、背景切换、后台管理（访问看板，个人资料修改、标签管理、文章管理、评论管理）
 
@@ -66,4 +66,4 @@ npm run build               # 构建项目代码，用于正式环境发布
   ```
   在 Vue 组件中就可以直接使用 `$`
 - 使用 `vuex` 一定要是 `commit` `mutation` 而不是直接操作 `state`
-- 父子组件通信应该注意其单向数据流概念，子组件不应该修改父组件的状态，参考：[Vue2中，父子组件通信](http://blog.fedt.xin/article/58f4eef77beb540f3006340e)
+- 父子组件通信应该注意其单向数据流概念，子组件不应该修改父组件的状态，参考：[Vue2中，父子组件通信](http://blog.chenteng.me/article/58f4eef77beb540f3006340e)

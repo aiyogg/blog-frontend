@@ -8,7 +8,7 @@ gulp.task('manifest', function () {
     .pipe($.manifest({
       hash: true,
       preferOnline: true,
-      prefix: 'https://blog.fedt.xin/',
+      prefix: 'https://blog.chenteng.me/',
       network: ['*'],
       cache: [
         'https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css',
