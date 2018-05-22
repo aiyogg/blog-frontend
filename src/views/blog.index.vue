@@ -5,7 +5,7 @@
         <h3 class="text-center services">前端开发工程师</h3>
         <div id="headlines">
           <h1 :class="{'current': now==1}" class="text-center textItem">Hello <span class="blue">Guys</span></h1>
-          <h1 :class="{'current': now==2}" class="text-center textItem">我是<span class="blue">魂魅</span></h1>
+          <h1 :class="{'current': now==2}" class="text-center textItem">我是<span class="blue">阿腾</span></h1>
           <h1 :class="{'current': now==3}" class="text-center textItem">带着<span class="blue">孤寂</span> 继续<span
             class="blue">前进</span></h1>
           <h1 :class="{'current': now==4}" class="text-center textItem"><span class="blue">战!</span>无需多言</h1>

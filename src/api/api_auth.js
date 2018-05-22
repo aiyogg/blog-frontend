@@ -4,10 +4,9 @@
  * 只由actions.js调用,返回成功的结果,否则返回空,错误由自己处理显示
  */
 
-
-import API from "../config.js"
-import Vue from "vue";
-import {doError} from "../api/api_doError";
+import API from '../config.js'
+import Vue from 'vue';
+import {doError} from '../api/api_doError';
 
 /**
  * 获取login的token
@@ -30,7 +29,7 @@ export const DoLogin = function () {
 
 export const Login = function (params) {
     return new Promise(function (resolve, reject) {
-        Vue.http.post(API.login,params).then((response) => {
+        Vue.http.post(API.login, params).then((response) => {
             // success callback
             let result = response.data;
             if (parseInt(result.code) === 1) {
@@ -43,10 +42,6 @@ export const Login = function (params) {
         });
     })
 };
-
-
-
-
 
 export const GetMyInfoWithOriginal = function () {
     return new Promise(function (resolve, reject) {
@@ -66,7 +61,7 @@ export const GetMyInfoWithOriginal = function () {
 
 export const ChangePassword = function (params) {
     return new Promise(function (resolve, reject) {
-        Vue.http.post(API.changePassword,params).then((response) => {
+        Vue.http.post(API.changePassword, params).then((response) => {
             // success callback
             let result = response.data;
             if (parseInt(result.code) === 1) {

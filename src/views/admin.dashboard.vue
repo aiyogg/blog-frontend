@@ -258,8 +258,8 @@
             scaleLimit: {max: 4, min: 1.2},
             itemStyle: {
               normal: {
-//                areaColor: '#38b7ea',
-//                borderColor: '#38bbea'
+              //  areaColor: '#38b7ea',
+              //  borderColor: '#38bbea'
               },
               emphasis: {
                 areaColor: '#38b7ea'
