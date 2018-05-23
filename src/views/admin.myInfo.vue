@@ -389,7 +389,8 @@
     computed:{
       loginInInfo: function () {
         if(!!this.myInfo && !!this.myInfo.login_info){
-          return _.orderBy(this.myInfo.login_info.slice(0, 15), ['login_time'],['desc'])
+          let loginInfo = this.myInfo.login_info
+          return _.orderBy(loginInfo.slice(loginInfo.length - 15, loginInfo.length), ['login_time'], ['desc'])
         }else{
           return []
         }
