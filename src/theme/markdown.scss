@@ -4,7 +4,7 @@
 @import "variables";
 
 .markdown-body {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-heiti;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word
@@ -373,9 +373,9 @@
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin: 0;
-  font-size: 85%;
   background-color: rgba(0, 0, 0, 0.04);
-  border-radius: 3px
+  border-radius: 3px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace!important;
 }
 
 .markdown-body code::before, .markdown-body code::after, .markdown-body tt::before, .markdown-body tt::after {
