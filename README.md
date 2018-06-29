@@ -1,8 +1,5 @@
 ## 个人博客前端代码仓库
 
-
-> 本项目是基于[X-SONGTAO](https://github.com/xiangsongtao/X-SONGTAO-VUE)项目的二次开发，感谢[Hsiang](https://github.com/xiangsongtao)优秀的源码
-
 ### 项目介绍
 本仓库是[个人博客](https:blog.chenteng.me)前端源码的备份,用于构建博客的前端代码   
 整个项目脚手架由Vue官方的 [`vue-cli`](https://github.com/vuejs/vue-cli) 工具生成(webpack版)，极大简化了项目搭建过程  
