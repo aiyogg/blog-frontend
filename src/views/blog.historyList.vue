@@ -1,6 +1,6 @@
 /**
-* Created by xiangsongtao on 16/7/24.
-* Description:
+* @author: Chuck
+* @description
 */
 <template>
   <div class="historyList">

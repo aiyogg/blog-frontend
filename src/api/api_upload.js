@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/18.
- * Description: 上传
+ * @author: Chuck
+ * @description 上传
  * 图片上传前打压缩+方向矫正操作,传入file后接受成功或失败promise
  */
 import API from "../config.js";

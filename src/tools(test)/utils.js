@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/16.
- * Description: parts为开发可能使用到的工具方法,由es6封装,按需加载
+ * @author: Chuck
+ * @description parts为开发可能使用到的工具方法,由es6封装,按需加载
  *              此目录将加载全部工具,不需要可注释掉,
  *              方法命名为Utils,挂载到window全局。
  */

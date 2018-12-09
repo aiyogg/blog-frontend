@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/3.
- * Description: localstorage和sessionStorage的插件
+ * @author: Chuck
+ * @description localstorage和sessionStorage的插件
  */
 module.exports = {
     install: function (Vue, options) {

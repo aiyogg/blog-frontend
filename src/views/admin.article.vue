@@ -1,9 +1,5 @@
-/**
-* Created by xiangsongtao on 16/7/24.
-* Description:
-*/
-<!--内容区-->
 <template>
+  <!-- 内容区 -->
   <div class="articleEdit animated fadeIn">
     <!--column title-->
     <h3 class="title">

@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/7/30.
- * Description: action 是一种专门用来被 component 调用的函数。
+ * @author: Chuck
+ * @description action 是一种专门用来被 component 调用的函数。
  */
 
 

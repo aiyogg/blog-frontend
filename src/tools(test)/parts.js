@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/16.
- * Description:
+ * @author: Chuck
+ * @description
  */
 if (window.console && typeof console.log != "function") {
     window.console = undefined;

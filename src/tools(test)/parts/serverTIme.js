@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/16.
- * Description: 返回服务器时间,用于时间校准
+ * @author: Chuck
+ * @description 返回服务器时间,用于时间校准
  */
 
 module.exports = function () {

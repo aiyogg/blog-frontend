@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/7/31.
- * Description:
+ * @author: Chuck
+ * @description
  */
 import CONFIG from "../config.js";
 /**

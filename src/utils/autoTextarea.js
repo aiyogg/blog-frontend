@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/8.
- * Description:
+ * @author: Chuck
+ * @description
  */
 export const autoTextarea = function (elem, extra, maxHeight) {
     extra = extra || 0;

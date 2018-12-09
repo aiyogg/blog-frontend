@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/7/30.
- * Description: 评论相关的api
+ * @author: Chuck
+ * @description 评论相关的api
  * 只由actions.js调用,返回成功的结果,否则返回空,错误由自己处理显示
  */
 import API from "../config.js";

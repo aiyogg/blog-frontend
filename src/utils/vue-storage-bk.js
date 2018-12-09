@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/8/3.
- * Description:
+ * @author: Chuck
+ * @description
  */
 import WatchJS from "../plugin/watch";
 var watch = WatchJS.watch;

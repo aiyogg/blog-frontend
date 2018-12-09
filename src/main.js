@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/10/29.
- * Description: main.js
+ * @author: Chuck
+ * @description main.js
  * */
 'use strict';
 import Vue from 'vue';

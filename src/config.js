@@ -1,6 +1,6 @@
 /**
- * Created by xiangsongtao on 16/7/27.
- * Description:586f3d705081215c18a15336
+ * @author: Chuck
+ * @description586f3d705081215c18a15336
  */
 // 线上配置
 let CONFIG;
