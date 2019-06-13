@@ -1,6 +1,6 @@
 <template>
   <div class="article animated fadeIn container">
-    <progress-bar></progress-bar>    
+    <progress-bar></progress-bar>
     <div class="row">
       <div id="article" class="col-lg-8">
         <div class="article-detail">
@@ -644,7 +644,7 @@
   @include media("<=desktop") {
     .backToTop {
       margin-left: 0;
-    }   
+    }
   }
 
   @include media("<=desktop_small") {
@@ -916,7 +916,7 @@
       shareToWB: function () {
         let articleTitle = `@呆萌阿腾 的这篇博客文章《${$('h1').text()}》写得很不错，分享给大家。`;
         let articleUrl = location.href;
-        let pictureUrl = $('#article img')[0] ? $('#article img:eq(0)').attr('src') : 'https://fedt-blog.b0.upaiyun.com/uploads/logo.jpg';
+        let pictureUrl = $('#article img')[0] ? $('#article img:eq(0)').attr('src') : 'https://cdn.chenteng.me/uploads/logo.jpg';
         let appId = '1348740919';
         let shareUrl = `http://service.weibo.com/share/share.php?title=${encodeURI(articleTitle)}&url=${encodeURI(articleUrl)}&pic=${encodeURI(pictureUrl)}&appkey=${appId}`;
         window.open(shareUrl, '_blank');
