@@ -76,6 +76,10 @@
         </div>
         <div class="articleEdit">
           <label for="textarea">文章详情(MarkDown编辑)</label>
+          <div class="shareCheck">
+            <label for="needshare">分享到微博<i class="fa fa-weibo"></i></label>
+            <input v-model="needShare" type="checkbox" name="needshare" id="needshare">
+          </div>
           <div class="textaresBox textaresBox_input">
             <textarea id="textarea" v-model="content_raw" class="form-control textarea"></textarea>
           </div>
@@ -336,7 +340,19 @@
     label {
       color: #fff;
     }
-
+    .shareCheck {
+      label {
+        font-weight: normal;
+        i {
+          margin: 0 5px;
+          color: rgb(230, 22, 45);
+        }
+      }
+      float: right;
+      input {
+        margin: 0;
+      }
+    }
   }
 
   .textaresBox {
@@ -492,6 +508,7 @@
         isPublishing: false,
         isDrafting: false,
         isImgLoading: false,
+        needShare: true
       }
     },
     computed: {
@@ -540,6 +557,7 @@
           "tags": tagsArr,
           "state": _this.article.state,
           "content": _this.content_raw,
+          "needshare": _this.needShare
         };
 
         return params;
