@@ -1,6 +1,6 @@
 <template>
     <div class="index-bottom-info text-center text-overflow">
-        <p><i class="fa fa-copyright"></i><span> 2015-{{currYear}} All Rights Reserved.</span><span class="hidden-xs">Designed by A-Ten. <a target="_blank" href="http://www.miibeian.gov.cn/">鄂ICP备17000298号</a>.</span></p>
+        <p><i class="fa fa-copyright"></i><span> 2015-{{currYear}} All Rights Reserved.</span><span class="hidden-xs">Designed by Chuck. <a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备17000298号-2</a>.</span></p>
     </div>
 </template>
 <style scoped lang="scss">
