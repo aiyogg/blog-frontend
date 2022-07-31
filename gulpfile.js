@@ -11,8 +11,8 @@ gulp.task('manifest', function () {
       prefix: 'https://blog.chenteng.me/',
       network: ['*'],
       cache: [
-        'https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css',
-        'https://cdn.bootcss.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3',
+        'https://cdn.jsdelivr.net/npm/font-awesome@4.6.3/css/font-awesome.min.css',
+        'https://cdn.jsdelivr.net/npm/font-awesome@4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3',
       ],
       filename: 'app.manifest',
       exclude: ['app.manifest'],
